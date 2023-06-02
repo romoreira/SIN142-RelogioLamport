@@ -3,7 +3,7 @@
 (Aula Prática 4) Prof. Dr. Rodrigo Moreira
 Requisito Ubuntu 18 ou Windows :bowtie:
 
-Objetivo: Executar um simulador de Relógio Lógico de Lamport e compreender a dinâmica.
+Objetivo: Executar um simulador de Relógio Lógico de Lamport e compreender a dinâmica da execução.
 
 > Em qualquer so com ambinte python configuredo execute: python3 main.py
 
@@ -11,7 +11,7 @@ Objetivo: Executar um simulador de Relógio Lógico de Lamport e compreender a d
 
 Um relógio lógico Lamport é um contador incrementado mantido em cada processo. Conceitualmente, esse relógio lógico pode ser pensado como um relógio que só tem sentido em relação às mensagens que se movem entre os processos. Quando um processo recebe uma mensagem, ele ressincroniza seu relógio lógico com aquele remetente (causalidade).
 
-O algoritmo de Lamport como Timestamps pode ser resumido em algumas regras:
+O algoritmo de Lamport com Timestamps pode ser resumido em algumas regras:
 
 1. Todos os contadores de processo começam com o valor 0.
 2. Um processo incrementa seu contador para cada evento (evento interno, envio de mensagem, recebimento de mensagem) nesse processo.
