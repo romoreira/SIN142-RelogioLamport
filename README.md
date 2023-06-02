@@ -1,4 +1,4 @@
-# SIN142 RelogioLógico de Lamport
+# SIN142 Relogio Lógico de Lamport
 
 ### O que é o Relógio Lógico de Lamport?
 
