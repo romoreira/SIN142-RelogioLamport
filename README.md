@@ -1,5 +1,12 @@
 # SIN142 Relogio Lógico de Lamport
 
+(Aula Prática 4) Prof. Dr. Rodrigo Moreira
+Requisito Ubuntu 18 ou Windows :bowtie:
+
+Objetivo: Executar um simulador de Relógio Lógico de Lamport e compreender a dinâmica.
+
+> Sugestão: python3 main.py
+
 ### O que é o Relógio Lógico de Lamport?
 
 Um relógio lógico Lamport é um contador incrementado mantido em cada processo. Conceitualmente, esse relógio lógico pode ser pensado como um relógio que só tem sentido em relação às mensagens que se movem entre os processos. Quando um processo recebe uma mensagem, ele ressincroniza seu relógio lógico com aquele remetente (causalidade).
