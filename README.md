@@ -5,7 +5,7 @@ Requisito Ubuntu 18 ou Windows :bowtie:
 
 Objetivo: Executar um simulador de Relógio Lógico de Lamport e compreender a dinâmica.
 
-> Sugestão: python3 main.py
+> Em qualquer so com ambinte python configuredo execute: python3 main.py
 
 ### O que é o Relógio Lógico de Lamport?
 
